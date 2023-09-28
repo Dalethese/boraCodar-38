@@ -1,0 +1,11 @@
+.feedback {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: 3px solid var(--grey-3);
+  border-radius: 50%;
+}

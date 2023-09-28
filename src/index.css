@@ -1,0 +1,48 @@
+:root {
+  --grey-1: #d9d9d9;
+  --grey-2: #565e6d;
+  --grey-3: #252c3a;
+  --grey-4: #1d2330;
+  --grey-5: #181d28;
+  --grey-6: #161a24;
+
+  --green-light: #abf770;
+  --green-dark: #5cad1d;
+  --red-light: #f77070;
+  --red-dark: #ab3030;
+}
+
+.heading-1 {
+  font-size: 24px;
+  line-height: 0%;
+  font-weight: bold;
+}
+
+.heading-1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.heading-2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.questions {
+  font-size: 12px;
+  line-height: 30%;
+  font-weight: bold;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(129deg, #996dff 8.18%, #633bbc 95.51%);
+  display: grid;
+  place-content: center;
+}

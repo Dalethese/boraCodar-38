@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --webkit-font-smoothing: antialiased;
+  --moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-family: "Sora";
+}
+
+.container {
+  max-width: 1060px;
+  max-height: 786px;
+
+  width: 90vw;
+  height: 90vh;
+  padding: 2rem 4rem;
+
+  background-color: var(--grey-6);
+  color: var(--grey-1);
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 69px;
+}

@@ -1,0 +1,24 @@
+.button {
+  background-color: var(--green-light);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button svg {
+  font-size: 24px;
+  color: var(--green-dark);
+  stroke-width: 2px;
+}
+
+.button:disabled {
+  background-color: var(--grey-4);
+}
+
+.button:disabled svg {
+  color: var(--grey-2);
+}

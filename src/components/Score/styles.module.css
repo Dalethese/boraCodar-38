@@ -1,0 +1,13 @@
+.scoreContainer {
+  padding: 12px 20px;
+  border: 2px solid var(--green-light);
+  border-radius: 8px;
+  color: var(--green-light);
+
+  display: flex;
+  gap: 6px;
+}
+
+.scoreContainer svg {
+  font-size: 24px;
+}
