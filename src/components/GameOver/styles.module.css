@@ -11,10 +11,22 @@
   font-size: 3em;
 }
 
-.reset {
-  padding: 1rem;
-  font-size: 1em;
-  font-weight: bold;
+.button {
+  padding: 1rem 2rem;
+  background-color: var(--green-light);
+  border: none;
   border-radius: 8px;
+
+  color: var(--grey-6);
+  font-size: 1.4em;
+  font-weight: bold;
+
   align-self: center;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px var(--green-light);
 }

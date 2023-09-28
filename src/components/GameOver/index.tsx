@@ -15,7 +15,10 @@ export const GameOver = () => {
         <p>
           Você acertou {score} de {questionsQty} perguntas!
         </p>
-        <button className={styles.reset} onClick={() => dispatch({ type: "reset_game" })}>
+        <button
+          className={styles.button}
+          onClick={() => dispatch({ type: "reset_game" })}
+        >
           Reiniciar
         </button>
       </div>
