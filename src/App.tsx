@@ -5,7 +5,7 @@ import { Question } from "./components/Question";
 import { GameOver } from "./components/GameOver";
 
 import "./App.css";
-import { Welcome } from "./components/Wellcome";
+import { Welcome } from "./components/Welcome";
 
 function App() {
   const [state] = useContext(QuizContext);
